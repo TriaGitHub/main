@@ -23,7 +23,7 @@ public class ContactService {
 
 
     }
-
+// Just trying stash
     private int checkIfExist(String phone){
         for (int i = 0; i < contacts.size(); i++) {
             if (contacts.get(i).getPhoneNumber().equals(phone)){
